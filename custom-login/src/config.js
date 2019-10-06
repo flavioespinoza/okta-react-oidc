@@ -1,10 +1,7 @@
-const CLIENT_ID = process.env.CLIENT_ID || '{clientId}';
-const ISSUER = process.env.ISSUER || 'https://{yourOktaDomain}.com/oauth2/default';
-
 export default {
   oidc: {
-    clientId: CLIENT_ID,
-    issuer: ISSUER,
+    clientId: '0oa1i7jp286n4kMhm357',
+    issuer: 'https://dev-679740.okta.com',
     redirectUri: 'http://localhost:8080/implicit/callback',
     scopes: ['openid', 'profile', 'email'],
     pkce: true,

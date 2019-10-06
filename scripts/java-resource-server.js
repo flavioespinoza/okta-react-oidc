@@ -1,5 +1,5 @@
 /* eslint-disable consistent-return, no-console */
-
+const dotenv = require('dotenv');
 const fs = require('fs');
 const { exec } = require('child_process');
 const path = require('path');

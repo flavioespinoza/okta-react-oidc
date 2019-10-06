@@ -2,8 +2,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
 
 // Support storing environment variables in a file named "testenv"
+const dotenv = require('dotenv')
 const path = require('path');
-const dotenv = require('dotenv');
 const fs = require('fs');
 
 // Read environment variables from "testenv". Override environment vars if they are already set.
